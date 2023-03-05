@@ -1,0 +1,35 @@
+{
+  "name": "server-biodiversity",
+  "version": "1.0.0",
+  "description": "server biodivercity",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riskimuhammad/server-biodiversity.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "nodejs"
+  ],
+  "author": "biodivercity",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riskimuhammad/server-biodiversity/issues"
+  },
+  "homepage": "https://github.com/riskimuhammad/server-biodiversity#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7"
+  }
+}
